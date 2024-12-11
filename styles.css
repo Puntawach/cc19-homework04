@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  font-size: 14px;
+  background: #f2f2f2;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 15px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+  justify-content: center;
+  margin: 0 5px;
+  font-size: 14px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.button span {
+  color: rgb(122, 122, 122); /* Text color is black */
+}
+
+.button i {
+  margin-right: 5px;
+}
+
+.button.live {
+  color: #f02849;
+}
+
+.button.photo {
+  color: #45bd62
+}
+
+.button.reels {
+  color: #f02849;
+}
